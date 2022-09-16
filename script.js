@@ -9,8 +9,13 @@ console.log('Z '+'='+' '+z)
 //-------homework tow-----------------------------
 
 
-document.getElementById("out").onclick= function(){
+document.getElementById("outC").onclick= function(){
     let input1 = document.getElementById("in").value;
     // console.log("hello"+input1);
-    document.getElementById('ww').innerHTML = input1/5*9+32;
+    document.getElementById('ww').innerHTML = "Convert (NN°<i>'C'</i>) to (NN°<i>F</i>) =  "+Math.floor(input1/5*9+32);
+}
+document.getElementById("outF").onclick= function(){
+    let input1 = document.getElementById("in").value;
+    // console.log("hello"+input1);
+    document.getElementById('ww').innerHTML = "Convert (NN°<i>'F'</i>) to (NN°<i>C</i>) =  "+Math.floor(input1-32*5/9);
 }
