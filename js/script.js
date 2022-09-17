@@ -27,3 +27,15 @@ document.getElementById("outF").onclick= function(){
         document.getElementById('ww').innerHTML = "<i style='color:red;'>Error</i> Please Enter any number between -40 to 230";
     }
 }
+// ---------------------------homework tow-----------------
+const dog={
+    name:'my dog',
+    color:'black',
+    Age:function(a){return a*7;},
+    size:'small',
+}
+function CalculateDogAge(){
+    let inputAge = document.getElementById("Age").value;
+    let h1Age = document.querySelector('.resultAgeDog').innerHTML= "Age your Dog = "+dog.Age(inputAge);
+    return h1Age;
+}
