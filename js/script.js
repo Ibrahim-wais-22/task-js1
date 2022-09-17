@@ -36,6 +36,6 @@ const dog={
 }
 function CalculateDogAge(){
     let inputAge = document.getElementById("Age").value;
-    let h1Age = document.querySelector('.resultAgeDog').innerHTML= "Age your Dog = "+dog.Age(inputAge);
+    let h1Age = document.querySelector('.resultAgeDog').innerHTML= "your Dog's age = "+dog.Age(inputAge);
     return h1Age;
 }
